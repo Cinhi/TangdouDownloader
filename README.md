@@ -26,7 +26,7 @@ tddown.py links | -l list_file [-t dest_path]
 | 参数 | 用法 |
 |---|---|
 | `links` | 一个或多个视频页面链接，可以是```www.tangdou.com m.tangdou.com share.tangdou.com``` 。|
-| `-t dest_path` | 可选，将下载的文件存储至自定义的位置 `dest_path` 。如果牡蛎不存在，则将创建。 |
+| `-t dest_path` | 可选，将下载的文件存储至自定义的位置 `dest_path` 。如果目标不存在，则将创建。 |
 | `-l list_file` | 若没有 `links` 则必须提供。读取文件 `list_file` 里的视频页面链接，批量下载。 |
 
 ## Donate
