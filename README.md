@@ -3,7 +3,7 @@
 在网页内抓取[糖豆广场舞](https://www.tangdou.com/)视频链接，并下载到本地。
 ~~（其实是母上经常要求下载所以无聊写了这个）~~
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="76" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path fill="#555" d="M0 0h49v20H0z"/><path fill="#4c1" d="M49 0h27v20H49z"/><path fill="url(#b)" d="M0 0h76v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"> <text x="255" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="390">Python</text><text x="255" y="140" transform="scale(.1)" textLength="390">Python</text><text x="615" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="170">2.7</text><text x="615" y="140" transform="scale(.1)" textLength="170">2.7</text></g> </svg>
+https://img.shields.io/badge/Python-2.7-brightgreen.svg
 
 ## 功能
 
