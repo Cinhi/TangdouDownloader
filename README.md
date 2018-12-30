@@ -3,7 +3,7 @@
 在网页内抓取[糖豆广场舞](https://www.tangdou.com/)视频链接，并下载到本地。
 ~~（其实是母上经常要求下载所以无聊写了这个）~~
 
-https://img.shields.io/badge/Python-2.7-brightgreen.svg
+![](https://img.shields.io/badge/Python-2.7-brightgreen.svg)
 
 ## 功能
 
