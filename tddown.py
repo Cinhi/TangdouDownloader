@@ -117,23 +117,31 @@ def parse_links():
         except:
             cprint("Video link not found in " + link + '.')
             continue
-        tmptitle = unicode(re.sub(pattern=ur'<\/*title>',repl=' ',string=(re.search(pattern=r'<title>[\s\S]*<\/title>',string=rawdata).group())) + u'.mp4')
+        tmptitle = unicode(re.search(pattern=r'<title>([\S\s]+)<\/title>',string=rawdata).group(1) + u'.mp4')
         vidlinks[tmpurl] = tmptitle
-        print vidlinks
+        # print vidlinks # for test purpose
 
 
 def download(dl_link,name):
-    cprint("Downloading " + name + "...")
+    cprint("Downloading " + name + "...",6)
     try:
         urllib.urlretrieve(dl_link,args['dest_path'] + name)
+    except KeyboardInterrupt :
+    	cprint('\nDownload aborted. Cleaning up...',3)
+        try:
+            os.remove(args['dest_path'] + name)
+            exit(0)
+        except :
+            exit(0)
     except :
         cprint('Unable to download file. Ignoring.',1)
         try:
             os.remove(args['dest_path'] + name)
         except :
             a = 'a'
+            
         return
-    cprint("Finished downloading " + name + '.',6)
+    cprint("Finished downloading " + name + '.',2)
     return
         
 def main() :
