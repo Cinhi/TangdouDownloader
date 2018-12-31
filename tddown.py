@@ -42,7 +42,7 @@ def parse_args():
     global getfromlist
     # Prevent mistakes from start
     # Although bugs will still present :)
-    args['dest_path'] = '.'
+    args['dest_path'] = './'
     if len(sys.argv) <=1 :
         cprint("Fatal: No argument given.",1)
         cprint("Usage: tddown.py link | -l <list file> [-t save_path]\nNote: you could give multiply links separated by space.\nLinks available:")
