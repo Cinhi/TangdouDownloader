@@ -29,6 +29,10 @@ tddown.py links | -l list_file [-t dest_path]
 | `-t dest_path` | 可选，将下载的文件存储至自定义的位置 `dest_path` 。如果目标不存在，则将创建。 |
 | `-l list_file` | 若没有 `links` 则必须提供。读取文件 `list_file` 里的视频页面链接，批量下载。 |
 
+## Collaborator
+
+- [kj415j45](https://github.com/kj415j45)
+
 ## Donate
 
 因为太弱了，所以无法接受捐赠。
